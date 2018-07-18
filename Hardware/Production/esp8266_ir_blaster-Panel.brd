@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3533,6 +3533,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -3651,8 +3654,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="R5" library="SparkFun-Resistors" package="0603" value="1k" x="14.351" y="15.875" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="14.351" y="15.875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="D2" library="SparkFun-LED" package="LED-0603" value="BLUE" x="12.7" y="15.875" rot="R90">
-<attribute name="PROD_ID" value="DIO-08575" x="12.7" y="15.875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<element name="D2" library="SparkFun-LED" package="LED-0603" value="GREEN" x="12.7" y="15.875" rot="R90">
+<attribute name="PROD_ID" value="DIO-00821" x="12.7" y="15.875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="600mA/40V" x="13.97" y="5.08" rot="R90">
 <attribute name="PROD_ID" value="TRANS-08049" x="13.97" y="5.08" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -3720,8 +3723,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="R11" library="SparkFun-Resistors" package="0603" value="1k" x="40.259" y="15.875" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="40.259" y="15.875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="D5" library="SparkFun-LED" package="LED-0603" value="BLUE" x="38.608" y="15.875" rot="R90">
-<attribute name="PROD_ID" value="DIO-08575" x="38.608" y="15.875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<element name="D5" library="SparkFun-LED" package="LED-0603" value="GREEN" x="38.608" y="15.875" rot="R90">
+<attribute name="PROD_ID" value="DIO-00821" x="38.608" y="15.875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="Q2" library="SparkFun-DiscreteSemi" package="SOT23-3" value="600mA/40V" x="39.878" y="5.08" rot="R90">
 <attribute name="PROD_ID" value="TRANS-08049" x="39.878" y="5.08" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -3789,8 +3792,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="R18" library="SparkFun-Resistors" package="0603" value="1k" x="66.167" y="15.875" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="66.167" y="15.875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="D8" library="SparkFun-LED" package="LED-0603" value="BLUE" x="64.516" y="15.875" rot="R90">
-<attribute name="PROD_ID" value="DIO-08575" x="64.516" y="15.875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<element name="D8" library="SparkFun-LED" package="LED-0603" value="GREEN" x="64.516" y="15.875" rot="R90">
+<attribute name="PROD_ID" value="DIO-00821" x="64.516" y="15.875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="Q3" library="SparkFun-DiscreteSemi" package="SOT23-3" value="600mA/40V" x="65.786" y="5.08" rot="R90">
 <attribute name="PROD_ID" value="TRANS-08049" x="65.786" y="5.08" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -3858,8 +3861,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="R25" library="SparkFun-Resistors" package="0603" value="1k" x="14.351" y="43.942" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="14.351" y="43.942" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="D11" library="SparkFun-LED" package="LED-0603" value="BLUE" x="12.7" y="43.942" rot="R90">
-<attribute name="PROD_ID" value="DIO-08575" x="12.7" y="43.942" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<element name="D11" library="SparkFun-LED" package="LED-0603" value="GREEN" x="12.7" y="43.942" rot="R90">
+<attribute name="PROD_ID" value="DIO-00821" x="12.7" y="43.942" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="Q4" library="SparkFun-DiscreteSemi" package="SOT23-3" value="600mA/40V" x="13.97" y="33.147" rot="R90">
 <attribute name="PROD_ID" value="TRANS-08049" x="13.97" y="33.147" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -3927,8 +3930,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="R32" library="SparkFun-Resistors" package="0603" value="1k" x="40.259" y="43.942" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="40.259" y="43.942" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="D14" library="SparkFun-LED" package="LED-0603" value="BLUE" x="38.608" y="43.942" rot="R90">
-<attribute name="PROD_ID" value="DIO-08575" x="38.608" y="43.942" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<element name="D14" library="SparkFun-LED" package="LED-0603" value="GREEN" x="38.608" y="43.942" rot="R90">
+<attribute name="PROD_ID" value="DIO-00821" x="38.608" y="43.942" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="Q5" library="SparkFun-DiscreteSemi" package="SOT23-3" value="600mA/40V" x="39.878" y="33.147" rot="R90">
 <attribute name="PROD_ID" value="TRANS-08049" x="39.878" y="33.147" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -3996,8 +3999,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="R39" library="SparkFun-Resistors" package="0603" value="1k" x="66.167" y="43.942" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="66.167" y="43.942" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="D17" library="SparkFun-LED" package="LED-0603" value="BLUE" x="64.516" y="43.942" rot="R90">
-<attribute name="PROD_ID" value="DIO-08575" x="64.516" y="43.942" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<element name="D17" library="SparkFun-LED" package="LED-0603" value="GREEN" x="64.516" y="43.942" rot="R90">
+<attribute name="PROD_ID" value="DIO-00821" x="64.516" y="43.942" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="Q6" library="SparkFun-DiscreteSemi" package="SOT23-3" value="600mA/40V" x="65.786" y="33.147" rot="R90">
 <attribute name="PROD_ID" value="TRANS-08049" x="65.786" y="33.147" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -4065,8 +4068,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="R46" library="SparkFun-Resistors" package="0603" value="1k" x="14.351" y="72.009" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="14.351" y="72.009" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="D20" library="SparkFun-LED" package="LED-0603" value="BLUE" x="12.7" y="72.009" rot="R90">
-<attribute name="PROD_ID" value="DIO-08575" x="12.7" y="72.009" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<element name="D20" library="SparkFun-LED" package="LED-0603" value="GREEN" x="12.7" y="72.009" rot="R90">
+<attribute name="PROD_ID" value="DIO-00821" x="12.7" y="72.009" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="Q7" library="SparkFun-DiscreteSemi" package="SOT23-3" value="600mA/40V" x="13.97" y="61.214" rot="R90">
 <attribute name="PROD_ID" value="TRANS-08049" x="13.97" y="61.214" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -4134,8 +4137,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="R53" library="SparkFun-Resistors" package="0603" value="1k" x="40.259" y="72.009" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="40.259" y="72.009" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="D23" library="SparkFun-LED" package="LED-0603" value="BLUE" x="38.608" y="72.009" rot="R90">
-<attribute name="PROD_ID" value="DIO-08575" x="38.608" y="72.009" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<element name="D23" library="SparkFun-LED" package="LED-0603" value="GREEN" x="38.608" y="72.009" rot="R90">
+<attribute name="PROD_ID" value="DIO-00821" x="38.608" y="72.009" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="Q8" library="SparkFun-DiscreteSemi" package="SOT23-3" value="600mA/40V" x="39.878" y="61.214" rot="R90">
 <attribute name="PROD_ID" value="TRANS-08049" x="39.878" y="61.214" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -4203,8 +4206,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="R60" library="SparkFun-Resistors" package="0603" value="1k" x="66.167" y="72.009" rot="R90">
 <attribute name="PROD_ID" value="RES-07856" x="66.167" y="72.009" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="D26" library="SparkFun-LED" package="LED-0603" value="BLUE" x="64.516" y="72.009" rot="R90">
-<attribute name="PROD_ID" value="DIO-08575" x="64.516" y="72.009" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<element name="D26" library="SparkFun-LED" package="LED-0603" value="GREEN" x="64.516" y="72.009" rot="R90">
+<attribute name="PROD_ID" value="DIO-00821" x="64.516" y="72.009" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="Q9" library="SparkFun-DiscreteSemi" package="SOT23-3" value="600mA/40V" x="65.786" y="61.214" rot="R90">
 <attribute name="PROD_ID" value="TRANS-08049" x="65.786" y="61.214" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -6999,6 +7002,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J18" pad="7"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 </eagle>
