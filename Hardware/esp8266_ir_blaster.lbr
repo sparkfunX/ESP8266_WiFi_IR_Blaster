@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -120,9 +120,9 @@
 </polygon>
 </package>
 <package name="TSOP382">
-<pad name="2" x="0" y="0" drill="0.7" diameter="1.524"/>
-<pad name="1" x="-2.54" y="0" drill="0.7" diameter="1.524"/>
-<pad name="3" x="2.54" y="0" drill="0.7" diameter="1.524"/>
+<pad name="2" x="0" y="0" drill="0.762" diameter="1.524"/>
+<pad name="1" x="-2.54" y="0" drill="0.762" diameter="1.524"/>
+<pad name="3" x="2.54" y="0" drill="0.762" diameter="1.524"/>
 <wire x1="-2.5" y1="1.45" x2="-2.5" y2="-1.35" width="0.002540625" layer="51"/>
 <wire x1="-2.5" y1="-1.35" x2="-2" y2="-1.35" width="0.002540625" layer="51"/>
 <wire x1="2" y1="-1.35" x2="1.4142125" y2="-1.9357875" width="0.002540625" layer="51"/>
